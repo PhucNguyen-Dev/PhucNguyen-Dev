@@ -72,7 +72,7 @@ Multi-agent by default — I run parallel agents across open harnesses (**Hermes
 
 - 💼 **LinkedIn** → [linkedin.com/in/phuc-nguyen-ai](https://www.linkedin.com/in/phuc-nguyen-ai/)
 - 🐦 **X** → [@PNCochinchinese](https://x.com/PNCochinchinese) — dev updates
-- 📧 [kengtruyenbuildthewall@gmail.com](mailto:kengtruyenbuildthewall@gmail.com) · 🐙 [@PhucNguyen-Dev](https://github.com/PhucNguyen-Dev)
+- 📧 [nguyen.phuc.nguyen.dev@gmail.com](mailto:nguyen.phuc.nguyen.dev@gmail.com) · 🐙 [@PhucNguyen-Dev](https://github.com/PhucNguyen-Dev)
 
 **Looking to connect with builders, developers, and founders building a world of abundance with AI.**
 
