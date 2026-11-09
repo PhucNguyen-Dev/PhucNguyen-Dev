@@ -6,53 +6,57 @@
 
 **Building AI systems you can trust in production — not demo magic.**
 
-🇻🇳 Ho Chi Minh City · shipping in public
+*"Humans hold the soul; AI bears its shape."*
+
+🇻🇳 Vietnam
 
 </div>
 
-## ⚡ Right now: Skillens
+## 🎯 What I'm about
 
-**Agents read skills. Nothing checks they follow them.** Skillens watches every tool call against the loaded skill's steps, flags skipped work in the agent's own next turn, and shows execution fidelity live.
+I build **reliable LLM-powered systems** end to end — agent tooling, workflow automation, full-stack products. Structured outputs, schema validation, retry/backoff, human-in-the-loop gates, evaluation harnesses. I map the process before I write the code (BPMN 2.0 background), and I put numbers on what works.
 
-✅ **Live in the official [Hermes plugin catalog](https://github.com/NousResearch/hermes-agent/tree/main/plugin-catalog)** (Nous Research) — installable with one command:
+**My goal: bridge the void between human and AI interaction — into the real world.**
 
-```bash
-hermes plugins install skillens
-```
+## ⚡ Currently
 
-→ [github.com/PhucNguyen-Dev/skillens](https://github.com/PhucNguyen-Dev/skillens)
+- **Skillens** — live skill-execution fidelity for AI agents: watches every tool call against the loaded skill's steps, flags skipped work in the agent's own next turn. **Merged into the official Hermes plugin catalog** (Nous Research): `hermes plugins install skillens` → [repo](https://github.com/PhucNguyen-Dev/skillens)
+- **PromptLedger** — my AI behavior control plane: multi-surface (SDK / CLI / VS Code / Slack bot), 115 tests, A/B evaluation harness, p50/p95 observability
 
-## 🧰 What I build
+🎯 Open to AI engineering & automation collaborations — remote or hybrid in Vietnam.
 
-**AI agent systems** — LLM workflows with structured outputs, schema validation, retry/backoff, HMAC-signed webhooks, human-in-the-loop gates, A/B + LLM-as-judge evaluation.
+## 🛠️ Tech stack
 
-**Full-stack products** — Next.js · TypeScript · Python · FastAPI · Supabase/PostgreSQL · Playwright · Docker · CI/CD.
+![Languages](https://skillicons.dev/icons?i=ts,js,py,html,css&theme=dark)
+![Frontend](https://skillicons.dev/icons?i=react,nextjs,vite,tailwind,redux&theme=dark)
+![Backend & data](https://skillicons.dev/icons?i=nodejs,postgres,mysql,supabase,prisma&theme=dark)
+![Cloud & ops](https://skillicons.dev/icons?i=docker,aws,cloudflare,nginx,git&theme=dark)
 
-**Process before code** — BPMN 2.0 modeling, requirements analysis, SOP authoring. I map the workflow before I automate it.
+**AI / agents** · ![Gemini](https://img.shields.io/badge/Google%20Gemini-4285F4?style=flat-square&logo=googlegemini&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white) ![Claude](https://img.shields.io/badge/Anthropic%20Claude-D97757?style=flat-square&logo=anthropic&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-E6526A?style=flat-square&logo=langchain&logoColor=white) ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
 
-<details>
-<summary><b>Stack details</b></summary>
+**Frameworks & method** · `FastAPI` · `Playwright` · `RAG` · `Structured Outputs` · `LLM-as-Judge` · `HMAC webhooks` · `BPMN 2.0` · `CI/CD`
 
-| Layer | Tools |
+## 🤝 Open source
+
+| Upstream | What I did |
 |---|---|
-| AI / LLM | Google Gemini · OpenAI · Anthropic Claude · LangChain · RAG · Structured Outputs · AI Governance · Observability |
-| Agents | Hermes Agent plugins & hooks · n8n · prompt & skill engineering · eval harnesses · tool-call tracing |
-| Frontend | Next.js · React · TypeScript · Tailwind · Redux/Zustand |
-| Backend & data | Python · FastAPI · PostgreSQL/Supabase (RLS/RBAC) · serverless |
-| Quality & ops | pytest · Playwright E2E · Docker · Vercel/AWS CI/CD |
-| Process | BPMN 2.0 · requirements analysis · enablement & training design |
+| [rlaope/oh-my-hermes](https://github.com/rlaope/oh-my-hermes) | Vietnamese trigger language pack (`vi.json`) + routing validation — **merged upstream** ([PR #2262](https://github.com/rlaope/oh-my-hermes/pull/2262)) |
+| [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | Windows compatibility fix for audit validators ([PR](https://github.com/cloudflare/security-audit-skill/pulls?q=is%3Apr+author%3APhucNguyen-Dev)) · 14 commits extending it in [my fork](https://github.com/PhucNguyen-Dev/security-audit-skill) |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | Skillens shipped into the official plugin catalog ([PR #151541](https://github.com/NousResearch/hermes-agent/pull/151541)) |
 
-</details>
+## 🧠 How I actually work
+
+Multi-agent by default — I run parallel agents across open harnesses (**Hermes Agent · OpenCode · Claude Code · Codex · Kilo Code · DeepSeek**), with human-in-the-loop where decisions carry weight and no-human where they don't. It all flows through my own **skill factory**: a central hub that turns every lesson into portable agent skills — its architecture I share in conversation, not in READMEs. 😼
 
 ## 🚢 Ship log
 
 ```
-2026-11 ─► Skillens — merged into Nous Research' Hermes catalog (PR #151541) · 0.1.0 shipped
-2026   ─► AI Operations Copilot — 5 production AI tools · 74 unit tests · 8/8 E2E failure scenarios
-2026   ─► PromptLedger — AI behavior control plane · 115 tests · SDK/CLI/VS Code/Slack (private)
-2026   ─► security-audit-skill — structured multi-phase audits for coding agents
-2025   ─► Lawyer Portfolio (client) · FashionCraft Studio · Movie Discovery
-2024   ─► Business Analyst track — BPMN 2.0 process modeling at R2s
+2026-11 ─► Skillens 0.1.0 — merged into Nous Research' Hermes catalog (PR #151541)
+2026-10 ─► Upstream contributions: oh-my-hermes (vi language pack) · Cloudflare security-audit-skill (Windows fix)
+2026    ─► AI Operations Copilot — 5 production AI tools · 74 unit tests · 8/8 E2E failure scenarios
+2026    ─► PromptLedger — AI behavior control plane · 115 tests · SDK/CLI/VS Code/Slack surfaces
+2025    ─► FashionCraft Studio · Movie Discovery web app
+2024    ─► Business Analyst track — BPMN 2.0 process modeling at R2s
 ```
 
 ## 📦 Featured
@@ -61,19 +65,15 @@ hermes plugins install skillens
 |---|---|---|
 | [Skillens](https://github.com/PhucNguyen-Dev/skillens) | Agent-behavior auditing, live in an official AI-vendor plugin catalog | Python · Hermes hook API · SQLite traces |
 | [AI Operations Copilot](https://github.com/PhucNguyen-Dev/ai-operations-copilot) | Production AI across 4 departments, test-and-failure-scenario discipline | Next.js · Supabase · Gemini · n8n |
-| [security-audit-skill](https://github.com/PhucNguyen-Dev/security-audit-skill) | Making coding agents run structured security audits | Agent skills · tooling |
-| [Lawyer Portfolio](https://github.com/PhucNguyen-Dev/lawyer-portfolio-website) | Real client delivery, WCAG-compliant | React · Vite · TypeScript |
-
-## 🛠️ Languages
-
-Vietnamese (native) · English (professional working proficiency)
+| PromptLedger *(private — ask me for access)* | AI governance you can measure: eval harness + observability | Python · FastAPI · Postgres |
+| [security-audit-skill](https://github.com/PhucNguyen-Dev/security-audit-skill) | Cloudflare's audit skill, extended for my own environments | Agent skills · Windows compat |
 
 ## 📫 Reach out
 
-- 📧 [kengtruyenbuildthewall@gmail.com](mailto:kengtruyenbuildthewall@gmail.com)
-- 🐦 [@PNCochinchinese](https://x.com/PNCochinchinese) — the building-in-public feed
-- 🐙 [@PhucNguyen-Dev](https://github.com/PhucNguyen-Dev)
+- 💼 **LinkedIn** → [linkedin.com/in/phuc-nguyen-ai](https://www.linkedin.com/in/phuc-nguyen-ai/)
+- 🐦 **X** → [@PNCochinchinese](https://x.com/PNCochinchinese) — dev updates
+- 📧 [kengtruyenbuildthewall@gmail.com](mailto:kengtruyenbuildthewall@gmail.com) · 🐙 [@PhucNguyen-Dev](https://github.com/PhucNguyen-Dev)
 
-🎯 Open to AI engineering / automation collaborations — remote or hybrid in Vietnam.
+**Looking to connect with builders, developers, and founders building a world of abundance with AI.**
 
-<sub>BSc Software Engineering — UEF HCMC · BSc Cybersecurity — Eastern International University</sub>
+<sub>Vietnamese (native) · English (professional working proficiency) — BSc Software Engineering, UEF HCMC · BSc Cybersecurity, EIU</sub>
