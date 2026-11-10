@@ -10,6 +10,10 @@
 
 🇻🇳 Vietnam
 
+![A crew of cursor agents rebuilding this header](assets/agent-swarm-header.gif)
+
+<sub>header rebuilt by a swarm of cursor agents · <a href="https://github.com/zadescoxp/agent-swarm-effect">agent-swarm-effect</a></sub>
+
 </div>
 
 ## 🎯 What I'm about
